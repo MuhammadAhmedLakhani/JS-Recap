@@ -64,18 +64,28 @@
 
 
 
-function abcd(){
-    let a = 20;                            //due to 1 curley brackets this varaible is available
-                                            //  throughout the function as let follows block scope only
-     console.log("a -->" + a)                                      
-}
+// function abcd(){
+//     let a = 20;                            //due to 1 curley brackets this varaible is available
+//                                             //  throughout the function as let follows block scope only
+//      console.log("a -->" + a)                                      
+// }
 
-abcd()
-function abc(){
-    if(true){
-        let b = 30;                          // let nature only allows the b to be availbe inside if block
-    }
-    console.log("b-->" + b)
-}
+// abcd()
+// function abc(){
+//     if(true){
+//         let b = 30;                          // let nature only allows the b to be availbe inside if block
+//     }
+//     console.log("b-->" + b)
+// }
 
-abc()
+// abc()
+
+
+// ---------------------- reassignment , redeclaration
+
+
+var a  = 12 //declare and initialized
+
+a = 20      //reassignment
+
+var a = 30 // redeclaration  is possible in var
