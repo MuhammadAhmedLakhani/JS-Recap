@@ -33,8 +33,12 @@
 
 
 
-var a = 12 /// global scope :available throughout the program
+// var a = 12   /// global scope :available throughout the program
 
+
+function abc(){
+    var a = 12;            //functional scope:available only inside the function not anywhere else
+}
 
 
 
