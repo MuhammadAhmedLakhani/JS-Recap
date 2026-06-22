@@ -9,10 +9,22 @@
 
 
 
-var a = 12;
+// var a = 12;
 
-var a  = 122;
+// var a  = 122;
 
-console.log(a)        //no error eve on redeclaration
+// console.log(a)        //no error eve on redeclaration
+
+
+let a = 12;
+
+let a  = 122;
+
+console.log(a)        // error throws on redeclaration
+
+
+
+
+
 
 
