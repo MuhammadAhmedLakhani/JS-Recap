@@ -52,13 +52,30 @@
 
                 
 
-{
-    var a = 30;                    //var is leaky in nature and does not value blockscope,it  only entertain 
-                                   //  functional scope
-    console.log(a)
-    a = 20
+// {
+//     var a = 30;                    //var is leaky in nature and does not value blockscope,it  only entertain 
+//                                    //  functional scope
+//     console.log(a)
+//     a = 20
+// }
+
+// console.log(a)                        // a is accessible outside the block with var
+
+
+
+
+function abcd(){
+    let a = 20;                            //due to 1 curley brackets this varaible is available
+                                            //  throughout the function as let follows block scope only
+     console.log("a -->" + a)                                      
 }
 
-console.log(a)         // a is accessible outside the block with var
+abcd()
+function abc(){
+    if(true){
+        let b = 30;                          // let nature only allows the b to be availbe inside if block
+    }
+    console.log("b-->" + b)
+}
 
-
+abc()
