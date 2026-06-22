@@ -84,8 +84,15 @@
 // ---------------------- reassignment , redeclaration
 
 
-var a  = 12 //declare and initialized
+// var a  = 12 //declare and initialized
 
-a = 20      //reassignment
+// a = 20      //reassignment
 
-var a = 30 // redeclaration  is possible in var
+// var a = 30 // redeclaration  is possible in var
+
+
+let a  = 12 //declare and initialized
+
+a = 20      //reassignment is possible
+
+let a = 30 // redeclaration  is notttt  possible in var and throws error
