@@ -23,9 +23,20 @@
 // console.log(a)        // error throws on redeclaration
 
 
-const discount = "12%"  /// its is certain that this value would not change
-                        // it is use for making the value constant and not allowed to change
-  discount = "10%"                      
+// const discount = "12%"    /// its is certain that this value would not change
+                            // it is use for making the value constant and not allowed to change
+//   discount = "10%"                      
+
+
+
+// ------------------scope: (global , block , functional)
+
+
+
+var a = 12 /// global scope :available throughout the program
+
+
+
 
 
 
