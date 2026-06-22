@@ -42,12 +42,23 @@
 
 
 
+// {
+//     let a = 30;
+//     console.log(a)
+//     a = 20
+// }
+
+// console.log(a)      ///a not avaiable outside
+
+                
+
 {
-    let a = 30;
+    var a = 30;                    //var is leaky in nature and does not value blockscope,it  only entertain 
+                                   //  functional scope
     console.log(a)
     a = 20
 }
 
-console.log(a)      ///a not avaiable outside
+console.log(a)         // a is accessible outside the block with var
 
 
