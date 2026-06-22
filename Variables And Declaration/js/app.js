@@ -36,11 +36,18 @@
 // var a = 12   /// global scope :available throughout the program
 
 
-function abc(){
-    var a = 12;            //functional scope:available only inside the function not anywhere else
+// function abc(){
+//     var a = 12;            //functional scope:available only inside the function not anywhere else
+// }
+
+
+
+{
+    let a = 30;
+    console.log(a)
+    a = 20
 }
 
-
-
+console.log(a)      ///a not avaiable outside
 
 
