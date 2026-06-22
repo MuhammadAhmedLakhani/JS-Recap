@@ -16,15 +16,16 @@
 // console.log(a)        //no error eve on redeclaration
 
 
-let a = 12;
+// let a = 12;
 
-let a  = 122;
+// let a  = 122;
 
-console.log(a)        // error throws on redeclaration
-
-
+// console.log(a)        // error throws on redeclaration
 
 
+const discount = "12%"  /// its is certain that this value would not change
+                        // it is use for making the value constant and not allowed to change
+  discount = "10%"                      
 
 
 
