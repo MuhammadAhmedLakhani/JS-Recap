@@ -27,6 +27,16 @@
 
 // they contain numerical data 
 
-let a = 12; // number
+// let a = 12; // number
 
-let b = 12.5 //number
+// let b = 12.5 //number
+
+//--------------------------------------- boleon
+
+// they contain either true or false keywords 
+
+let a = true; // boleon
+
+let b = false; //boleon
+
+console.log(a)
