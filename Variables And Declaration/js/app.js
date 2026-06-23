@@ -114,9 +114,27 @@
 
 
 
-console.log(a)
+// console.log(a)
 
-var a = 12;
+// var a = 12;
+
+// ----------------------------hoisting per type
+//undefined is assigned to the variable declare through var
 
 
+console.log(a)              
+var a = 20;
+
+
+// no value is assigned to variable declare through let or const
+//they both follow tdz so no access until reached the line where they are initialize/assigned 
+
+console.log(b)
+console.log(c)
+
+let b = 30
+
+const c = 94
+
+//instead  reference error is thrown
 
