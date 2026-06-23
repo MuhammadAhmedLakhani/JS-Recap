@@ -91,8 +91,20 @@
 // var a = 30 // redeclaration  is possible in var
 
 
-let a  = 12 //declare and initialized
+// let a  = 12 //declare and initialized
 
-a = 20      //reassignment is possible
+// a = 20      //reassignment is possible
 
-let a = 30 // redeclaration  is notttt  possible in var and throws error
+// let a = 30 // redeclaration  is notttt  possible in var and throws error
+
+
+//-----------------------TDZ(Temporal Dead Zone)
+//its an area in which accessing value of the variable  is not possible until reached th variable initialization line
+//look in line 105 the error is not "not define" instead "cannot access the variable value before initialization"
+
+console.log(a)
+
+let a = 12; 
+
+
+
