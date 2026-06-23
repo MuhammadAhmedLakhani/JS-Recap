@@ -102,9 +102,21 @@
 //its an area in which accessing value of the variable  is not possible until reached th variable initialization line
 //look in line 105 the error is not "not define" instead "cannot access the variable value before initialization"
 
+// console.log(a)
+
+// let a = 12; 
+
+
+
+//------------------------ hoisting: it break the variable into 2 parts and
+//  the declaration part goes on top  like "var a = undefined" 
+// while initialization  part goes on bottom like "a = 12"
+
+
+
 console.log(a)
 
-let a = 12; 
+var a = 12;
 
 
 
