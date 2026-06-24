@@ -35,8 +35,16 @@
 
 // they contain either true or false keywords 
 
-let a = true; // boleon
+// let a = true; // boleon
 
-let b = false; //boleon
+// let b = false; //boleon
 
-console.log(a)
+// console.log(a)
+
+// -------------------------------------- null
+
+// they means empty and does not contain any value
+//apko value nahi pata k konsi aayege kis type ke aaye ge
+
+
+    
