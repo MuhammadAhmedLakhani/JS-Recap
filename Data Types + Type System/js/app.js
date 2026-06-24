@@ -119,7 +119,11 @@
 // false values:0 false "" null undefined NaN  document.all
 
 
- 
+ if(-1){    //-1 is true even negative
+    console.log("true value")
+ }
+
+ //everything else is true value in js
 
 
 
