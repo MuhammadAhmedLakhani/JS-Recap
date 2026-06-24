@@ -100,12 +100,17 @@
 //js change the type of the data automatically
 
 
-console.log( 1 + "1") // result is 11 
+// console.log( 1 + "1") // result is 11 
 
 
 //here js convert the numerical 1 to string as well as it thinks its concatenation
 
+// CASE 2: strign conversion
 
+
+console.log( "6" - 1 ) // 5 (numerical substraction performed)
+
+//here string converted to number as minus sign present which is numerical operation purelly
 
 
 
