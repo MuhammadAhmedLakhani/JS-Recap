@@ -76,10 +76,22 @@
 
 // ------- Dynamic Typing
 
-let a = 12;
+// let a = 12;
 
-console.log(a)   // a type is number now
-a = true;
+// console.log(a)   // a type is number now
+// a = true;
 
-console.log(a)  // now a type change to boleon
+// console.log(a)  // now a type change to boleon
     
+
+
+// --------- typeof quirks (quirks--->weird behaviour)
+
+
+
+console.log(typeof null)  //object printed even though its weird
+
+
+console.log(typeof NaN)   //number even 'NaN' is itself not a number
+
+
