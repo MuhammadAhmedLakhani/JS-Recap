@@ -46,5 +46,9 @@
 // they means empty and does not contain any value
 //apko value nahi pata k konsi aayege kis type ke aaye ge
 
+// --------------------------------------- undefined
+
+//if you define a variable and donot give its value the default value is undefined (Absence of Value):
+//ye value js deti hai , null hum khud dete hen -->(Intentional Absence)
 
     
