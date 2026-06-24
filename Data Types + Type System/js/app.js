@@ -23,7 +23,7 @@
 //they contain data which is wrapped in single --> '' or double quotes --> "" or backticks --> ``
 
 
-//--------------------------------------- number
+//-------------------------------------- number
 
 // they contain numerical data 
 
@@ -31,7 +31,7 @@
 
 // let b = 12.5 //number
 
-//--------------------------------------- boleon
+//-------------------------------------- boleon
 
 // they contain either true or false keywords 
 
@@ -46,9 +46,24 @@
 // they means empty and does not contain any value
 //apko value nahi pata k konsi aayege kis type ke aaye ge
 
-// --------------------------------------- undefined
+// -------------------------------------- undefined
 
 //if you define a variable and donot give its value the default value is undefined (Absence of Value):
 //ye value js deti hai , null hum khud dete hen -->(Intentional Absence)
+
+
+// --------------------------------------- symbol
+
+//unique immutable value
+
+//Symbol functon ka use kiya jata hai 
+//2 variable ke naam same hosakte hen mager woh phir bhe same nahi hote
+
+let u1 = Symbol("id")
+let u2 = Symbol("id")
+
+
+console.log(u1 === u2)   //false will be even though same
+
 
     
