@@ -1,7 +1,16 @@
 
 //------------- primitives data types
 // string number booleon null undefined symbol bigInt
+
+// ----- important info
+
 // when you copy them they copy fully (deep-copy)
+// they are immutable/not changeble data types
+//although you can reassign them but not change the individual value
+//const doest not allow reassignment only , you can still change 
+// the individual value if the data type is mutable ,for example  objects
+
+
 
 
 // let a = 12;
