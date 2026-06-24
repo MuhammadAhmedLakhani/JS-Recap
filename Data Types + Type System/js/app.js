@@ -108,16 +108,18 @@
 // CASE 2: strign conversion
 
 
-console.log( "6" - 1 ) // 5 (numerical substraction performed)
+// console.log( "6" - 1 ) // 5 (numerical substraction performed)
 
 //here string converted to number as minus sign present which is numerical operation purelly
 
 
+// ---------------------- truthy vs falsy values
 
 
+// false values:0 false "" null undefined NaN  document.all
 
 
-
+ 
 
 
 
