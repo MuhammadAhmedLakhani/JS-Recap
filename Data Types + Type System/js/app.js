@@ -89,9 +89,36 @@
 
 
 
-console.log(typeof null)  //object printed even though its weird
+// console.log(typeof null)  //object printed even though its weird
 
 
-console.log(typeof NaN)   //number even 'NaN' is itself not a number
+// console.log(typeof NaN)   //number even 'NaN' is itself not a number
+
+
+// --------------- type coersion
+
+//js change the type of the data automatically
+
+
+console.log( 1 + "1") // result is 11 
+
+
+//here js convert the numerical 1 to string as well as it thinks its concatenation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
