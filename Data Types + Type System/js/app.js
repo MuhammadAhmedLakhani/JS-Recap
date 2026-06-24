@@ -68,11 +68,18 @@
 //Symbol functon ka use kiya jata hai 
 //2 variable ke naam same hosakte hen mager woh phir bhe same nahi hote
 
-let u1 = Symbol("id")
-let u2 = Symbol("id")
+// let u1 = Symbol("id")
+// let u2 = Symbol("id")
 
 
-console.log(u1 === u2)   //false will be even though same
+// console.log(u1 === u2)   //false will be even though same
 
+// ------- Dynamic Typing
 
+let a = 12;
+
+console.log(a)   // a type is number now
+a = true;
+
+console.log(a)  // now a type change to boleon
     
