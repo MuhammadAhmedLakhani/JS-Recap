@@ -127,6 +127,10 @@
 
 
 
+if(""){    // emoty string as false value
+   console.log("epty value is a false value")
+}
+
 
 
 
