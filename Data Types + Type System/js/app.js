@@ -134,10 +134,16 @@
 // }
 
 
-if(undefined){
-   console.log("running undefined")
+// if(undefined){
+//    console.log("running undefined")
+// }else{
+//    console.log("undefiend is a false value")
+// }
+
+if(null){
+   console.log("running null")
 }else{
-   console.log("undefiend is a false value")
+   console.log("null is a false value")
 }
 
 
