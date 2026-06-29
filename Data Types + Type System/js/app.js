@@ -140,10 +140,22 @@
 //    console.log("undefiend is a false value")
 // }
 
-if(null){
-   console.log("running null")
+// if(null){
+//    console.log("running null")
+// }else{
+//    console.log("null is a false value")
+// }
+
+// if(null){                   
+//    console.log("running null")
+// }else{
+//    console.log("null is a false value")
+// }
+
+if(NaN){     //NaN as false value type              
+   console.log("running 0")
 }else{
-   console.log("null is a false value")
+   console.log("NaN is a false value")
 }
 
 
