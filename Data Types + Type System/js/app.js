@@ -119,20 +119,26 @@
 // false values:0 false "" null undefined NaN  document.all
 
 
- if(-1){    //-1 is true even negative
-    console.log("true value")
- }
+//  if(-1){    //-1 is true even negative
+//     console.log("true value")
+//  }
 
  //everything else is true value in js
 
 
 
-if(""){    // emoty string as false value
-   console.log("epty value is a false value")
+// if(""){    // emoty string as false value
+//    console.log("running empty")
+// }else{
+//    console.log("epty value is a false value")
+// }
+
+
+if(undefined){
+   console.log("running undefined")
+}else{
+   console.log("undefiend is a false value")
 }
-
-
-
 
 
 
