@@ -32,10 +32,12 @@ let b = 2;;
 
 //!=
 
-console.log(12 != 13) // return true as both are not equal as condition given
+// console.log(12 != 13) // return true as both are not equal as condition given
 
-console.log(12 != 12)  //// return false as both are  equal and condition is given of both 'not equal'
+// console.log(12 != 12)  //// return false as both are  equal and condition is given of both 'not equal'
+console.log(12 != "12")  //// return false as both are  equal and condition is given of both 'not equal'
+                          /// but this is false as data tyepes are not sa,e (problem of "!=")
 
 
 
-
+console.log(12 !== "12") // return true as both are "not equal" as condition given (data types make them different in reality)
