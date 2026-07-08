@@ -17,11 +17,11 @@
 // console.log(a)
 // let c = a;  // copying them 
 //  console.log(c)  //same value as of a 
- 
+
 //  a = 40
 //  console.log(a)  //updated a value 
 //  console.log(c)  // value of c is not updated 
- 
+
 // ---------------non-primitive data types
 //array [] object {} functions ()
 //when you copy them they refer to the original one (shallow copy)
@@ -82,7 +82,7 @@
 // a = true;
 
 // console.log(a)  // now a type change to boleon
-    
+
 
 
 // --------- typeof quirks (quirks--->weird behaviour)
@@ -123,7 +123,7 @@
 //     console.log("true value")
 //  }
 
- //everything else is true value in js
+//everything else is true value in js
 
 
 
@@ -152,12 +152,27 @@
 //    console.log("null is a false value")
 // }
 
-if(NaN){     //NaN as false value type              
-   console.log("running 0")
-}else{
-   console.log("NaN is a false value")
+// if(NaN){     //NaN as false value type              
+//    console.log("running 0")
+// }else{
+//    console.log("NaN is a false value")
+// }
+
+
+// ------------------------Symbol in practice(libray code conflict example)--------------------------------------
+
+
+let myId = Symbol("id")
+
+
+let guest = {
+   name: "Ali",
+   id: 123
 }
 
+guest[myId] = 124      //[myId] telling js to get underneath symbol as its value not just id
+                       //basically js assigns unique value to evey symbol even though thee name are same
 
+console.log(guest)
 
 
