@@ -162,17 +162,17 @@
 // ------------------------Symbol in practice(libray code conflict example)--------------------------------------
 
 
-let myId = Symbol("id")
+// let myId = Symbol("id")
 
 
-let guest = {
-   name: "Ali",
-   id: 123
-}
+// let guest = {
+//    name: "Ali",
+//    id: 123
+// }
 
-guest[myId] = 124      //[myId] telling js to get underneath symbol as its value not just id
-                       //basically js assigns unique value to evey symbol even though thee name are same
+// guest[myId] = 124      //[myId] telling js to get underneath symbol as its value not just id
+//                        //basically js assigns unique value to evey symbol even though thee name are same
 
-console.log(guest)
+// console.log(guest)
 
 
