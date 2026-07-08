@@ -26,6 +26,9 @@ let b = 2;;
 
 
 
+console.log(12 == 12);    // returns true as value same
+console.log(12 == "12");  // returns true as value matched even though data  types are different(Loose Equality Operator)
+console.log(12 === "12"); //returens false even values matched but data types are different (Strict Equality Operator)
 
 
 
