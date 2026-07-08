@@ -26,14 +26,15 @@ let b = 2;;
 
 
 
-console.log(12 == 12);    // returns true as value same
-console.log(12 == "12");  // returns true as value matched even though data  types are different(Loose Equality Operator)
-console.log(12 === "12"); //returens false even values matched but data types are different (Strict Equality Operator)
+// console.log(12 == 12);    // returns true as value same
+// console.log(12 == "12");  // returns true as value matched even though data  types are different(Loose Equality Operator)
+// console.log(12 === "12"); //returens false even values matched but data types are different (Strict Equality Operator)
 
+//!=
 
+console.log(12 != 13) // return true as both are not equal as condition given
 
-
-
+console.log(12 != 12)  //// return false as both are  equal and condition is given of both 'not equal'
 
 
 
