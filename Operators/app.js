@@ -49,8 +49,12 @@ let b = 2;;
 
 
 //"<" --> less than sign
-console.log(12 < 13) // returns true
+// console.log(12 < 13) // returns true
 
-console.log(13 < 11) // returns false
+// console.log(13 < 11) // returns false
+
+//">="  --> greaterthan or equal to (combination of both values returns true if either of them true)
 
 
+console.log(12 >= 10) //returns true
+console.log(12 >= 13) //returns false (both conditions are false)
