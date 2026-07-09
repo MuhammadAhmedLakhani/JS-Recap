@@ -35,9 +35,14 @@ let b = 2;;
 // console.log(12 != 13) // return true as both are not equal as condition given
 
 // console.log(12 != 12)  //// return false as both are  equal and condition is given of both 'not equal'
-console.log(12 != "12")  //// return false as both are  equal and condition is given of both 'not equal'
-                          /// but this is false as data tyepes are not sa,e (problem of "!=")
+// console.log(12 != "12")  //// return false as both are  equal and condition is given of both 'not equal'
+//                           /// but this is false as data tyepes are not sa,e (problem of "!=")
 
 
 
-console.log(12 !== "12") // return true as both are "not equal" as condition given (data types make them different in reality)
+// console.log(12 !== "12") // return true as both are "not equal" as condition given (data types make them different in reality)
+
+//">" --> greater than sign
+console.log(12 > 13) // returns false as 12 is not greater than 13
+
+console.log(1200 > 1100 ) // returns true as 1200 is lesser than 1100
