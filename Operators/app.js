@@ -56,5 +56,16 @@ let b = 2;;
 //">="  --> greaterthan or equal to (combination of both values returns true if either of them true)
 
 
-console.log(12 >= 10) //returns true
-console.log(12 >= 13) //returns false (both conditions are false)
+// console.log(12 >= 10) //returns true
+// console.log(12 >= 13) //returns false (both conditions are false)
+
+
+
+//--------------Logical Operator
+
+// && --> means when both conditions must be true
+
+console.log(12<10   &&   12 > 13)      
+            // true      false                   --->answer is faslse as one condition is false
+
+                             
