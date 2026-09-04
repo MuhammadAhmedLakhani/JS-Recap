@@ -63,9 +63,13 @@ let b = 2;;
 
 //--------------Logical Operator
 
-// && --> means when both conditions must be true
+// // && --> means when both conditions must be true
 
-console.log(12<10   &&   12 > 13)      
-            // true      false                   --->answer is faslse as one condition is false
+// console.log(12<10   &&   12 > 13)      
+//             // true      false                   --->answer is faslse as one condition is false
 
-                             
+
+//OR operator: || --> means when one  condition must be true
+
+console.log(12>10   ||   13 <12)      
+            // true      false                   --->answer is true as one  of condition is true
